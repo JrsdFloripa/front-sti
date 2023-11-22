@@ -1,0 +1,43 @@
+*{ 
+
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color:blue;
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 25px;
+    margin-block: 30px;
+    background-color: aquamarine;
+}
+body {
+    background-color:cyan;
+}
+.box, form{
+    gap: 40px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: aquamarine;
+    font-style: oblique;
+    margin-top: 100px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius:10px;
+    padding: 0 30px 0 30px;
+}
+button{
+    width: 150px;
+    height: 20px; 
+}
+.seletor{
+    display:grid;
+    
+}   
+p{text-align: center;}
